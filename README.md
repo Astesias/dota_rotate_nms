@@ -4,6 +4,8 @@ nms for rotate,only for objects that cannot coincide
 
 for reference only
 
+#use data form     x1 y1 x2 y2 x3 y3 x4 y4 class confidence_level
+
 
 
 ![e93d40a19e300f62d4ee5bb1829d581](https://user-images.githubusercontent.com/101987808/179805527-625324a3-ec27-41b2-a033-1214805610ee.png)![8b9d1babf93219eac2011fc818246fd](https://user-images.githubusercontent.com/101987808/179805570-1f8eddbb-8eb9-4300-84e6-eea6a72d3347.png)
