@@ -134,6 +134,8 @@ if __name__ == '__main__':
     save_dir='nms_ann/'
     dota_rotate_nms(ann_path,img_path,skip_mAp=0.0)   
     
+    # save confidence_level at the end of per line or you can modify some codes
+    
     # before
     dota_viewer(ann_path,img_path,rate=0.6)
     
