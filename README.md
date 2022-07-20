@@ -1,5 +1,8 @@
 # dota_rotate_nms
-nms for rotate
+
+nms for rotate,only for objects that cannot coincide
+
+for reference only
 
 
 
