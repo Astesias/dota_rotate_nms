@@ -97,7 +97,7 @@ def dota_viewer(anno_path,jpeg_path,ro=0,rate=1,st=0,Nonepass=1):
                     
                     drawRect(img, po1,po2,po3,po4,(0,255,0),2)
                     cv2.putText(img,box[8],(po1[0]-5,po1[1]-5),cv2.FONT_HERSHEY_TRIPLEX,0.8,bgr2rgb((255,0,0))    ,2)
-                    print('{} {} {} {} {} {}'.format(path,po1,po2,po3,po4,box[8]))
+                    #print('{} {} {} {} {} {}'.format(path,po1,po2,po3,po4,box[8]))
                     
                 else:
                     a,b,c,d,e,f,g,h=box[0],box[1],box[2],box[3],box[4],box[5],box[6],box[7]
@@ -124,7 +124,7 @@ def dota_viewer(anno_path,jpeg_path,ro=0,rate=1,st=0,Nonepass=1):
                     cv2.putText(img,box[8],(po1[0]-5,po1[1]-5),cv2.FONT_HERSHEY_TRIPLEX,0.8,bgr2rgb((255,0,0)))  
                     img=rotate_bound(img,angle)
                      
-                    print('{} {} {} {} {} {}'.format(path,po1,po2,po3,po4,box[8]))
+                    #print('{} {} {} {} {} {}'.format(path,po1,po2,po3,po4,box[8]))
                 
                      
                     cv2.imshow(path2filename(path),img)
