@@ -132,7 +132,7 @@ if __name__ == '__main__':
     ann_path='ann/'
     img_path='img/'
     save_dir='nms_ann/'
-    dota_rotate_nms(ann_path,img_path,skip_mAp=0.2)   
+    dota_rotate_nms(ann_path,img_path,skip_mAp=0.0)   
     
     # before
     dota_viewer(ann_path,img_path,rate=0.6)
