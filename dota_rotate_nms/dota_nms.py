@@ -1,5 +1,5 @@
 import os
-from dota_data_view import dota_viewer
+from lib.dota_data_view import dota_viewer
 
 def f2(num):
     try:
